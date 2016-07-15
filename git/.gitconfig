@@ -1,0 +1,50 @@
+[difftool "diffmerge"]
+	cmd = diffmerge $LOCAL $REMOTE
+[alias]
+  alias = "!git config -l | grep alias | cut -c 7-"
+  ls = log --pretty=format:"%C(green)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+  ld = log --pretty=format:"%C(green)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+  lds = log --pretty=format:"%C(green)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  cl = clone
+  cm = commit
+  co = checkout
+  br = branch
+  r = reset
+  r1 = reset HEAD^
+  r2 = reset HEAD^^
+  count = shortlog -sn
+	lc = add-rm-line-count
+	g = grep --break --heading --line-number
+	gi = grep --break --heading --line-number -i
+	changed = show --pretty=\"format:\" --name-only
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+	compression = -1
+	autocrlf = input
+	whitespace = trailing-space,space-before-tab
+	precomposeunicode = true
+[apply]
+	whitespace = nowarn
+[help]
+	autocorrect = 1
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true
+	keepBackup = false
+[diff]
+	tool = diffmerge
+[difftool]
+	prompt = false
+[grep]
+	extendRegexp = true
+	lineNumber = true
+[push]
+	default = simple
