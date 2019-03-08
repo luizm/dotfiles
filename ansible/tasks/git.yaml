@@ -1,0 +1,8 @@
+- name: Git configuration
+  git_config:
+    name: "{{ item.name }}"
+    value: "{{ item.value }}"
+    scope: global
+  with_items:
+    - {name: "user.name",  value: "Luizm" }
+    - {name: "user.email", value: "luizmuller.it@gmail.com" }
