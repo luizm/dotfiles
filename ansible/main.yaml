@@ -1,0 +1,39 @@
+- hosts: localhost
+  vars:
+    brew_cask_packages:
+      - authy
+      - diffmerge
+      - docker
+      - dropbox
+      - google-chrome
+      - google-cloud-sdk
+      - iterm2
+      - pritunl
+      - razer-synapse
+      - spectacle
+      - spotify
+      - tunnelblick
+      - visual-studio-code
+      - whatsapp
+    brew_packages:
+      - aws-iam-authenticator
+      - awscli
+      - golang
+      - hub
+      - jq
+      - kubectl
+      - kubernetes-helm
+      - shellcheck
+      - shfmt
+      - telnet
+      - terraform
+      - terragrunt
+      - vault
+      - wget
+      - zsh
+      - zsh-autosuggestions
+      - zsh-syntax-highlighting
+  tasks:
+    - include: tasks/files.yaml
+    - include: tasks/packages.yaml
+    - include: tasks/scripts.yaml

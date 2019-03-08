@@ -1,0 +1,4 @@
+- name: Add Visual Studio Code extensions
+  command: ./scripts/vscode.sh
+- name: Exec defaults for macOs
+  command: ./scripts/macos.sh

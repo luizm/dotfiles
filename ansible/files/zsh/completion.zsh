@@ -1,2 +1,1 @@
 source <(kubectl completion zsh)
-

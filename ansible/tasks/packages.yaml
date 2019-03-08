@@ -1,0 +1,13 @@
+- name: Add Homebrew taps
+  homebrew_tap: 
+    name: caskroom/cask
+- name: Installing Homebrew Packages
+  homebrew:
+    name: "{{ brew_packages }}"
+    state: "present"
+    update_homebrew: yes
+- name: Installing Homebrew Cask Packages
+  homebrew_cask:
+    name: "{{ brew_cask_packages }}"
+    state: "present"
+    update_homebrew: yes
