@@ -18,6 +18,7 @@
     brew_packages:
       - aws-iam-authenticator
       - awscli
+      - gnu-sed
       - golang
       - hub
       - jq
