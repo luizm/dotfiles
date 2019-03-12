@@ -28,3 +28,8 @@ vault_login(){
     export VAULT_ADDR="https://$domain:8200"
     vault auth -method=github
 }
+
+gcloud_login(){
+    account="$1"
+    export GOOGLE_CREDENTIALS="/Users/luiz.muller/.gcloud/$account.json"
+}
