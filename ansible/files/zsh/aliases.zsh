@@ -1,3 +1,4 @@
+# shellcheck disable=SC2148
 alias k='kubectl'
 alias kgc='kubectl config get-contexts'
 alias kuc='kubectl config use-context'
