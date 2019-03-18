@@ -24,6 +24,7 @@
       - jq
       - kubectl
       - kubernetes-helm
+      - npm
       - pgcli
       - shellcheck
       - shfmt
