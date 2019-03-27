@@ -10,6 +10,7 @@ defaults write com.apple.keyboard.fnState -bool true
 # InterfaceSytle
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 defaults write com.apple.menuextra.battery ShowPercent -bool true
+defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true
 
 # Dock
 defaults write com.apple.dock tilesize -int 50
