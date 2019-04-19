@@ -19,6 +19,7 @@
     brew_packages:
       - aws-iam-authenticator
       - awscli
+      - elixir
       - gnu-sed
       - golang
       - hub
