@@ -6,6 +6,7 @@ extensions="
     hnw.vscode-auto-open-markdown-preview \
     jpogran.puppet-vscode \
     mauve.terraform \
+    mjmcloug.vscode-elixir \
     ms-kubernetes-tools.vscode-kubernetes-tools \
     ms-python.python \
     ms-vscode.go \
