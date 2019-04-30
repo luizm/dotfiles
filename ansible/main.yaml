@@ -17,6 +17,7 @@
       - vlc
       - whatsapp
     brew_packages:
+      - asdf
       - aws-iam-authenticator
       - awscli
       - elixir
