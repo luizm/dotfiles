@@ -43,8 +43,9 @@
       - zsh-autosuggestions
       - zsh-syntax-highlighting
     pip_packages:
-      - pgcli
       - boto
+      - pgcli
+      - pipenv
   tasks:
     - include: tasks/files.yaml
     - include: tasks/packages.yaml
