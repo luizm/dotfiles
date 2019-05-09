@@ -14,7 +14,7 @@ decodebase64() {
 sub() {
 	grep -R -l $1 * |
 		while read i; do
-			gsed -i "s/$1/$2/g" $i
+			sed -i "s/$1/$2/g" $i
 		done
 }
 
