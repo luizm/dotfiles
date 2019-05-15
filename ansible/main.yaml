@@ -18,6 +18,7 @@
       - whatsapp
     brew_packages:
       - asdf
+      - kube-ps1
       - aws-iam-authenticator
       - awscli
       - dep
