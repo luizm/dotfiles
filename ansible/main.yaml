@@ -26,6 +26,7 @@
       - htop
       - hub
       - jq
+      - kubectx
       - kubectl
       - kubernetes-helm
       - kubeseal
