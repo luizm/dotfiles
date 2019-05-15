@@ -20,6 +20,7 @@
       - asdf
       - aws-iam-authenticator
       - awscli
+      - dep
       - elixir
       - gnu-sed
       - golang
