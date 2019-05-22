@@ -49,6 +49,7 @@
       - boto
       - pgcli
       - pipenv
+      - pg_activity
   tasks:
     - include: tasks/files.yaml
     - include: tasks/packages.yaml
