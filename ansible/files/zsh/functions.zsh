@@ -27,10 +27,12 @@ p() {
 }
 
 vault_login() {
-	domain="$1"
-	export VAULT_AUTH_GITHUB_TOKEN=$(cat ~/.github/token)
-	export VAULT_ADDR="https://$domain:8200"
-	vault auth -method=github
+	local -r env="$1"
+
+	export VAULT_ADDR="$(grep "$env" ~/.vault-config | cut -d: -f2-)"
+	export VAULT_CACERT="$HOME/.cert/vault-$env.crt"
+
+	vault login -method=github token="$(cat ~/.github/token)"
 }
 
 gcloud_login() {
