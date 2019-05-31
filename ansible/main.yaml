@@ -27,6 +27,7 @@
       - golang
       - htop
       - hub
+      - hugo
       - jq
       - kubectx
       - kubectl
