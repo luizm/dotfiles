@@ -14,6 +14,8 @@ extensions="
     ryu1kn.partial-diff \
     timonwong.shellcheck \
     tyriar.sort-lines \
+    dhoeric.ansible-vault \
+    rupisaini.vscode-ansible-linter \
     vscoss.vscode-ansible
 "
 
