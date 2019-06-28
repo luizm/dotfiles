@@ -41,3 +41,12 @@ gcloud_login() {
 
 	export GOOGLE_CREDENTIALS="/Users/luiz.muller/.gcloud/$account.json"
 }
+
+avault() {
+	local -r action="$1"
+	local -r f="$2"
+
+	ansible-vault "$action" \
+		--vault-password-file "$HOME"/.ansible-vault/ansible-vault-file \
+		"$f"
+}
