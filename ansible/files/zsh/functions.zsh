@@ -3,6 +3,10 @@ pub_key() {
 	pbcopy < "$HOME"/.ssh/id_rsa.pub
 }
 
+github_token() {
+	pbcopy < "$HOME"/.github/token
+}
+
 convbase64() {
 	echo -n "$1" | base64 | pbcopy
 }
