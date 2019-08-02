@@ -41,6 +41,7 @@
       - terraform
       - terragrunt
       - transmission
+      - tree
       - vault
       - wget
       - zsh
