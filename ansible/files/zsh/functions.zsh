@@ -54,3 +54,7 @@ avault() {
 		--vault-password-file "$HOME"/.ansible-vault/ansible-vault-file \
 		"$f"
 }
+
+myip() {
+	curl ifconfig.co
+}
