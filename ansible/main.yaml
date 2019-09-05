@@ -26,6 +26,7 @@
       - gnu-sed
       - golang
       - htop
+      - httpie
       - hub
       - hugo
       - jq
