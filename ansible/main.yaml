@@ -51,6 +51,7 @@
     pip_packages:
       - boto
       - google-api-python-client
+      - httplib2
       - pgcli
       - pipenv
       - pg_activity
