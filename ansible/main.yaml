@@ -50,6 +50,7 @@
       - zsh-syntax-highlighting
     pip_packages:
       - boto
+      - google-api-python-client
       - pgcli
       - pipenv
       - pg_activity
