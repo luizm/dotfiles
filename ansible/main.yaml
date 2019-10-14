@@ -55,6 +55,7 @@
       - pgcli
       - pipenv
       - pg_activity
+      - uritemplate
   tasks:
     - include: tasks/files.yaml
     - include: tasks/packages.yaml
