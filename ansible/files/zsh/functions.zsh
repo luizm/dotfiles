@@ -36,6 +36,7 @@ vault_login() {
 
 	export VAULT_ADDR="$vault_addr"
 
+	unset VAULT_CACERT
 	test -f "$HOME/.cert/vault-$env.crt" && {
 		export VAULT_CACERT="$HOME/.cert/vault-$env.crt"
 	}
