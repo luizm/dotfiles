@@ -35,7 +35,10 @@ vault_login() {
 	local -r vault_addr="$(grep "$env" ~/.vault-config | cut -d: -f2-)"
 
 	export VAULT_ADDR="$vault_addr"
-	export VAULT_CACERT="$HOME/.cert/vault-$env.crt"
+
+	test -f "$HOME/.cert/vault-$env.crt" && {
+		export VAULT_CACERT="$HOME/.cert/vault-$env.crt"
+	}
 
 	vault login -method=github token="$(cat ~/.github/token)"
 }
