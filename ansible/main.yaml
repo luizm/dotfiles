@@ -41,6 +41,7 @@
       - telnet
       - terraform
       - terragrunt
+      - tokei
       - transmission
       - tree
       - vault
