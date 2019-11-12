@@ -25,6 +25,7 @@
       - elixir
       - gnu-sed
       - golang
+      - goreleaser
       - htop
       - httpie
       - hub
