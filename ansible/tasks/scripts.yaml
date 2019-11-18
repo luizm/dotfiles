@@ -2,3 +2,4 @@
   command: ./scripts/vscode.sh
 - name: Exec defaults for macOs
   command: ./scripts/macos.sh
+  when: ansible_distribution == 'MacOSX'

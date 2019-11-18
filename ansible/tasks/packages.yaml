@@ -1,17 +1,25 @@
-- name: Add Homebrew taps
+- name: Add homebrew taps
+  when: ansible_distribution == 'MacOSX'
   homebrew_tap:
       name: caskroom/cask
-- name: Installing Homebrew Packages
+- name: Installing homebrew packages
+  when: ansible_distribution == 'MacOSX'
   homebrew:
       name: "{{ brew_packages }}"
       state: "present"
       update_homebrew: yes
-- name: Installing Homebrew Cask Packages
+- name: Installing Homebrew Cask Packages]
+  when: ansible_distribution == 'MacOSX'
   homebrew_cask:
       name: "{{ brew_cask_packages }}"
       state: "present"
       update_homebrew: yes
-- name: Installing Pip Packages
+- name: Install ubuntu packages
+  when: ansible_distribution == 'Ubuntu'
+  apt:
+      name: "{{ ubuntu_packages }}"
+      state: "present"
+- name: Installing pip packages
   pip:
       name: "{{ pip_packages }}"
       state: "present"
