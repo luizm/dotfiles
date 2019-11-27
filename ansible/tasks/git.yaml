@@ -6,4 +6,6 @@
   with_items:
     - { name: "user.name", value: "luizm" }
     - { name: "user.email", value: "luizmuller.it@gmail.com" }
-    - { name: " pager.branch", value: "false" }
+    - { name: "pager.branch", value: "false" }
+    - { name: "user.signingkey", value: "BBCBD99FDF835C69" }
+    - { name: "commit.gpgsign", value: "true" }
