@@ -5,6 +5,7 @@
       - diffmerge
       - docker
       - dropbox
+      - gpg-suites
       - google-chrome
       - google-cloud-sdk
       - iterm2
