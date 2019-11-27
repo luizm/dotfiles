@@ -6,7 +6,7 @@
   ld = log --pretty=format:"%C(green)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
   lds = log --pretty=format:"%C(green)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
   cl = clone
-  cm = commit
+  cm = commit -S -m
   co = checkout
   br = branch
   r = reset
