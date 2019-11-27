@@ -25,6 +25,7 @@
       - elixir
       - gnu-sed
       - golang
+      - gpg
       - goreleaser
       - htop
       - httpie
@@ -50,11 +51,6 @@
       - zsh
       - zsh-autosuggestions
       - zsh-syntax-highlighting
-    ubuntu_packages:
-      - curl
-      - htop
-      - vim
-      - python-pip
     pip_packages:
       - boto
       - google-api-python-client

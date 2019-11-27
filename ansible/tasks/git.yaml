@@ -4,7 +4,6 @@
     value: "{{ item.value }}"
     scope: global
   with_items:
-    - {name: "user.name",  value: "Luizm" }
-    - {name: "user.email", value: "luizmuller.it@gmail.com" }
-    - {name: " pager.branch", value: "false" }
-  
+    - { name: "user.name", value: "luizm" }
+    - { name: "user.email", value: "luizmuller.it@gmail.com" }
+    - { name: " pager.branch", value: "false" }

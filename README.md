@@ -1,6 +1,6 @@
 # Luizm's dotfiles
 
-A collection of my custom dotfiles resources.
+A collection of my custom dotfiles resources, only OSX suported.
 
 ## Installation
 
