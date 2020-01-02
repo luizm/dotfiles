@@ -1,6 +1,6 @@
 - name: Add homebrew taps
   homebrew_tap:
-    name: caskroom/cask
+    name: caskroom/cask, instantclienttap/instantclient
 - name: Installing homebrew packages
   homebrew:
     name: "{{ brew_packages }}"

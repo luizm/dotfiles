@@ -5,7 +5,7 @@
       - diffmerge
       - docker
       - dropbox
-      - gpg-suites
+      - gpg-suitess
       - google-chrome
       - google-cloud-sdk
       - iterm2
@@ -19,22 +19,24 @@
       - whatsapp
     brew_packages:
       - asdf
-      - kube-ps1
       - aws-iam-authenticator
       - awscli
       - dep
       - elixir
       - gnu-sed
       - golang
-      - gpg
       - goreleaser
+      - gpg
       - htop
       - httpie
       - hub
       - hugo
+      - instantclient-basic
+      - instantclient-sqlplus
       - jq
-      - kubectx
+      - kube-ps1
       - kubectl
+      - kubectx
       - kubernetes-helm
       - kubeseal
       - npm
