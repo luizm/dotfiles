@@ -22,6 +22,7 @@
       - aws-iam-authenticator
       - awscli
       - dep
+      - eks-login
       - elixir
       - gnu-sed
       - golang
@@ -31,8 +32,6 @@
       - httpie
       - hub
       - hugo
-      - instantclient-basic
-      - instantclient-sqlplus
       - jq
       - kube-ps1
       - kubectl

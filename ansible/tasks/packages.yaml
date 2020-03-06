@@ -1,6 +1,10 @@
 - name: Add homebrew taps
   homebrew_tap:
-    name: caskroom/cask, instantclienttap/instantclient
+    name: caskroom/cask
+- name: Add my homebrew taps
+  homebrew_tap:
+    name: luizm/homebrew-tap
+    url: "https://github.com/luizm/homebrew-tap"
 - name: Installing homebrew packages
   homebrew:
     name: "{{ brew_packages }}"
