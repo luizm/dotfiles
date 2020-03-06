@@ -27,7 +27,7 @@ p() {
 		echo "DNS server is down" &&
 			return 1
 	}
-	ping 8.8.8.8
+	ping -i 0.5 8.8.8.8
 }
 
 vault_login() {
