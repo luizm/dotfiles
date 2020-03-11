@@ -5,6 +5,10 @@
   homebrew_tap:
     name: luizm/homebrew-tap
     url: "https://github.com/luizm/homebrew-tap"
+- name: Add getantibody homebrew taps
+  homebrew_tap:
+    name: getantibody/homebrew-tap
+    url: "https://github.com/getantibody/homebrew-tap"
 - name: Installing homebrew packages
   homebrew:
     name: "{{ brew_packages }}"
