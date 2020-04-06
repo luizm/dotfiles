@@ -23,6 +23,7 @@
       - asdf
       - aws-iam-authenticator
       - awscli
+      - bat
       - dep
       - eks-login
       - elixir
