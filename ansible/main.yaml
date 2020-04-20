@@ -10,6 +10,7 @@
       - google-cloud-sdk
       - iterm2
       - java
+      - postman
       - pritunl
       - razer-synapse
       - spectacle
