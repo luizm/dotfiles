@@ -4,6 +4,7 @@
       - authy
       - diffmerge
       - docker
+      - dozer
       - dropbox
       - gpg-suitess
       - google-chrome
