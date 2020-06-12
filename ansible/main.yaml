@@ -50,6 +50,7 @@
       - shfmt
       - telnet
       - terraform
+      - terraform-docs
       - terragrunt
       - tokei
       - transmission
