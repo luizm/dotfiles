@@ -29,6 +29,8 @@
       - dep
       - eks-login
       - elixir
+      - fish
+      - fzf
       - gnu-sed
       - golang
       - goreleaser
@@ -49,6 +51,7 @@
       - shellcheck
       - shfmt
       - telnet
+      - terminal-notifier
       - terraform
       - terraform-docs
       - terragrunt
