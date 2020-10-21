@@ -26,6 +26,7 @@
       - asdf
       - aws-iam-authenticator
       - awscli
+      - gssh
       - bat
       - dep
       - eks-login

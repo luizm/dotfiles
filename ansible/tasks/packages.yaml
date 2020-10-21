@@ -5,6 +5,10 @@
   homebrew_tap:
     name: luizm/homebrew-tap
     url: "https://github.com/luizm/homebrew-tap"
+- name: Add my caarls0 taps
+  homebrew_tap:
+    name: caarlos0/homebrew-tap
+    url: "https://github.com/caarlos0/homebrew-tap"
 - name: Add getantibody homebrew taps
   homebrew_tap:
     name: getantibody/homebrew-tap
