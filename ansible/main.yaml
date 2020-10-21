@@ -6,9 +6,10 @@
       - docker
       - dozer
       - dropbox
-      - gpg-suitess
+      - gitify
       - google-chrome
       - google-cloud-sdk
+      - gpg-suitess
       - iterm2
       - java
       - postman
