@@ -58,9 +58,9 @@
       - vault
       - wget
     pip_packages:
-     - pgcli
-     - pipenv
-     - pg_activity
+    #  - pgcli
+    #  - pipenv
+    #  - pg_activity
 
   tasks:
     - include: tasks/files.yaml
