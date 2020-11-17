@@ -1,6 +1,6 @@
 - name: Add homebrew taps
   homebrew_tap:
-    name: caskroom/cask
+    name: homebrew/cask
 - name: Add my homebrew taps
   homebrew_tap:
     name: luizm/homebrew-tap
@@ -27,4 +27,4 @@
   pip:
     name: "{{ pip_packages }}"
     state: "present"
-    executable: pip2
+    executable: pip3

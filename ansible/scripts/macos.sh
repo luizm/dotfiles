@@ -17,6 +17,9 @@ defaults write com.apple.dock tilesize -int 50
 defaults write com.apple.dock largesize -int 61
 defaults write com.apple.dock launchanim -bool true
 
+# Trackpad
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
+
 # Restart Apps
 for app in "Activity Monitor" \
 	"cfprefsd" \

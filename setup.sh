@@ -20,5 +20,5 @@ fi
 
 if which ansible-playbook 2>&1 >/dev/null; then
 	echo "~~> Running Ansible..."
-	ansible-playbook ansible/main.yaml
+	ansible-playbook -vvvvv ansible/main.yaml 
 fi

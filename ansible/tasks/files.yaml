@@ -1,7 +1,3 @@
-- name: Zsh customs
-  synchronize:
-    src: ./files/zsh/
-    dest: ~/.oh-my-zsh/custom/
 - name: Github config file
   copy:
     src: ./files/git/.gitconfig

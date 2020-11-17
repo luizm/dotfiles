@@ -7,20 +7,17 @@
       - dozer
       - dropbox
       - gitify
-      - google-chrome
-      - google-cloud-sdk
-      - gpg-suitess
       - iterm2
-      - java
       - postman
       - pritunl
-      - razer-synapse
       - spectacle
       - spotify
       - tunnelblick
-      - visual-studio-code
-      - vlc
+      # - visual-studio-code # TODO: https://github.com/geerlingguy/ansible-role-homebrew/issues/148
+      - slack
+      - notion
       - whatsapp
+      - 1password
     brew_packages:
       - antibody
       - asdf
@@ -29,8 +26,6 @@
       - gssh
       - bat
       - dep
-      - eks-login
-      - elixir
       - fish
       - fzf
       - gnu-sed
@@ -62,17 +57,11 @@
       - tree
       - vault
       - wget
-      - zsh
-      - zsh-autosuggestions
-      - zsh-syntax-highlighting
     pip_packages:
-      - boto
-      - google-api-python-client
-      - httplib2
-      - pgcli
-      - pipenv
-      - pg_activity
-      - uritemplate
+     - pgcli
+     - pipenv
+     - pg_activity
+
   tasks:
     - include: tasks/files.yaml
     - include: tasks/packages.yaml
