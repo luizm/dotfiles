@@ -1,0 +1,7 @@
+gcloud 315.0.0
+helm latest
+kubectl latest
+shellcheck latest
+shfmt latest 
+terraform latest
+tflint latest
