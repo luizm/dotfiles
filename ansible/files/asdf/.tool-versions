@@ -1,7 +1,8 @@
 gcloud 315.0.0
-helm latest
-kubectl latest
-shellcheck latest
-shfmt latest 
-terraform latest
-tflint latest
+helm 3.3.4
+kubectl 1.16.13
+shellcheck 0.7.1
+shfmt 3.1.2
+terraform 0.13.5
+tflint 0.20.3
+python 3.7.9 2.7.16
