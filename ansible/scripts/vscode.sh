@@ -1,8 +1,10 @@
 #!/bin/bash
 
 extensions="
+    dhoeric.ansible-vault \
     erd0s.terraform-autocomplete \
     esbenp.prettier-vscode \
+    hashicorp.terraform
     hnw.vscode-auto-open-markdown-preview \
     jpogran.puppet-vscode \
     mauve.terraform \
@@ -11,11 +13,10 @@ extensions="
     ms-python.python \
     ms-vscode.go \
     peterjausovec.vscode-docker \
+    rupisaini.vscode-ansible-linter \
     ryu1kn.partial-diff \
     timonwong.shellcheck \
     tyriar.sort-lines \
-    dhoeric.ansible-vault \
-    rupisaini.vscode-ansible-linter \
     vscoss.vscode-ansible
 "
 
