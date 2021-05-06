@@ -12,7 +12,6 @@
       - pritunl
       - spectacle
       - spotify
-      - tunnelblick
       # - visual-studio-code # TODO: https://github.com/geerlingguy/ansible-role-homebrew/issues/148
       - slack
       - notion
@@ -23,15 +22,16 @@
       - asdf
       - aws-iam-authenticator
       - awscli
-      - gssh
       - bat
       - dep
       - fish
       - fzf
+      - fork-cleaner
       - gnu-sed
       - golang
       - goreleaser
       - gpg
+      - gssh
       - htop
       - httpie
       - httpstat
@@ -49,18 +49,14 @@
       - shfmt
       - telnet
       - terminal-notifier
-      - terraform
-      - terraform-docs
-      - terragrunt
+      - terminal-notifier
       - tokei
       - transmission
       - tree
-      - vault
       - wget
     pip_packages:
-    #  - pgcli
-    #  - pipenv
-    #  - pg_activity
+     - pipenv
+     - pg_activity
 
   tasks:
     - include: tasks/files.yaml
