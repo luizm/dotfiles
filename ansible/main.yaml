@@ -18,6 +18,7 @@
       - whatsapp
       - 1password
     brew_packages:
+      - act
       - antibody
       - asdf
       - aws-iam-authenticator
@@ -25,8 +26,8 @@
       - bat
       - dep
       - fish
-      - fzf
       - fork-cleaner
+      - fzf
       - gnu-sed
       - golang
       - goreleaser
@@ -43,6 +44,8 @@
       - kubectx
       - kubernetes-helm
       - kubeseal
+      - liquibase
+      - maven
       - npm
       - pgcli
       - shellcheck
@@ -50,6 +53,7 @@
       - telnet
       - terminal-notifier
       - terminal-notifier
+      - tfsec
       - tokei
       - transmission
       - tree
