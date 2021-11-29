@@ -17,7 +17,6 @@ extensions="
     ryu1kn.partial-diff \
     timonwong.shellcheck \
     tyriar.sort-lines \
-    vscoss.vscode-ansible
 "
 
 for extension in $extensions; do

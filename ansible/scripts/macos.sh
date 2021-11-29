@@ -16,8 +16,13 @@ defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextr
 defaults write com.apple.dock tilesize -int 50
 defaults write com.apple.dock largesize -int 61
 defaults write com.apple.dock launchanim -bool true
+defaults write com.apple.dock magnification -bool True
+defaults write com.apple.dock largesize -float 58.000000
 
-# Trackpad
+# Trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
 
 # Restart Apps

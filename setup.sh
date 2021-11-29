@@ -7,7 +7,7 @@ if test -f /etc/lsb-release; then
 else 
 	if ! which brew 2>&1 >/dev/null; then
 		echo "~~> Installing Homebrew..."
-		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	fi
 
 	if ! which ansible 2>&1 >/dev/null; then

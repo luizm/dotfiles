@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env fish
 
 curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher
 
