@@ -12,7 +12,7 @@
       - pritunl
       - spectacle
       - spotify
-      # - visual-studio-code # TODO: https://github.com/geerlingguy/ansible-role-homebrew/issues/148
+      - visual-studio-code
       - slack
       - notion
       - whatsapp
@@ -29,6 +29,7 @@
       - fork-cleaner
       - fzf
       - gnu-sed
+      - gnupg
       - golang
       - goreleaser
       - gpg

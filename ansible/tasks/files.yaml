@@ -7,3 +7,8 @@
   copy:
     src: ./files/asdf/.tool-versions
     dest: ~/.tool-versions
+
+- name: Fish config file
+  copy:
+    src: ./files/fish/config.fish
+    dest: ~/.config/fish/config.fish
