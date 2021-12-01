@@ -48,3 +48,11 @@
   lineNumber = true
 [push]
   default = simple
+[user]
+	name = luizm
+	email = luizmuller.it@gmail.com
+	signingkey = BBCBD99FDF835C69
+[pager]
+	branch = false
+[commit]
+	gpgsign = true

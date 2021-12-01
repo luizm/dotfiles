@@ -66,4 +66,3 @@
     - include: tasks/files.yaml
     - include: tasks/packages.yaml
     - include: tasks/scripts.yaml
-    - include: tasks/git.yaml
