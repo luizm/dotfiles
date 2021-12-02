@@ -59,6 +59,7 @@
       - transmission
       - tree
       - wget
+      - yarn
     pip_packages:
      - pipenv
      - pg_activity
