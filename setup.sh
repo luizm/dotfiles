@@ -14,7 +14,7 @@ else
 
 	if ! which ansible 2>&1 >/dev/null; then
 		echo "~~> Installing Ansible..."
-		brew install ansible
+		brew install ansible ansible-lint
 		ansible --version
 	fi
 fi

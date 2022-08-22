@@ -1,28 +1,28 @@
 - hosts: localhost
   vars:
     brew_cask_packages:
+      - 1password
       - authy
       - diffmerge
       - docker
-      - dozer
       - dropbox
-      - gitify
+      - google-cloud-sdk
+      - google-drive
       - iterm2
+      - notion
       - postman
       - pritunl
+      - slack
       - spectacle
       - spotify
       - visual-studio-code
-      - slack
-      - notion
       - whatsapp
-      - 1password
+      - zerotier-one
     brew_packages:
-      - act
-      - antibody
       - asdf
       - aws-iam-authenticator
       - awscli
+      - bash
       - bat
       - dep
       - fish
@@ -40,28 +40,30 @@
       - hub
       - hugo
       - jq
-      - kube-ps1
       - kubectl
       - kubectx
       - kubernetes-helm
-      - kubeseal
+      - libpq
       - liquibase
-      - maven
       - npm
       - pgcli
       - shellcheck
       - shfmt
+      - stern
       - telnet
       - terminal-notifier
-      - terminal-notifier
+      - terraform
+      - tflint
       - tfsec
       - tokei
       - transmission
       - tree
       - wget
       - yarn
+      - yq
     pip_packages:
      - pipenv
+     - psycopg2
      - pg_activity
 
   tasks:

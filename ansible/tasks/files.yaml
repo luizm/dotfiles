@@ -3,11 +3,6 @@
     src: ./files/git/.gitconfig
     dest: ~/.gitconfig
 
-- name: Tools version file
-  copy:
-    src: ./files/asdf/.tool-versions
-    dest: ~/.tool-versions
-
 - name: Fish config file
   copy:
     src: ./files/fish/config.fish

@@ -1,6 +1,8 @@
-- name: Add Visual Studio Code extensions
-  command: ./scripts/vscode.sh
-- name: Exec defaults for macOs
-  command: ./scripts/macos.sh
-- name: Set fish as default
-  command: ./scripts/fish.sh
+- name: Setting up asdf
+  command: ./scripts/asdf.fish
+- name: Setting up fish
+  command: ./scripts/init.fish
+- name: Setting up vim
+  command: ./scripts/vim.fish
+- name: Setting up osx
+  command: ./scripts/osx.fish
